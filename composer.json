@@ -1,0 +1,17 @@
+{
+    "name": "ilzrv/php-compatibility-checker",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ilzrv\\PhpCompatibilityChecker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ilia Lazarev",
+            "email": "ilia.lazarev@icloud.com"
+        }
+    ],
+    "require": {}
+}
