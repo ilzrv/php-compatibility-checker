@@ -1,0 +1,111 @@
+{
+    "phpoffice/phpexcel": [
+        {
+            "php": "7.4",
+            "working-version": null,
+            "problems": ["Trying to access array offset on value of type int."],
+            "comments": [
+                "Replace with <href='https://github.com/PHPOffice/PhpSpreadsheet'>PhpSpreadsheet</>"
+            ]
+        }
+    ],
+    "jms/serializer" : [
+        {
+            "php": "7.4",
+            "working-version": ">=1.14.1",
+            "problems": ["Nested ternary operators"],
+            "comments": [
+                "Example: <href='https://3v4l.org/mT5L5'>https://3v4l.org/mT5L5</>",
+                "Fix: <href='https://github.com/schmittjoh/serializer/commit/a4a93a977c5a70b071a375eb7c5dd6c625e5360d'>GitHub</>",
+                "Docs: <href='https://www.php.net/manual/ru/migration74.deprecated.php'>php.net</>"
+            ]
+        }
+    ],
+    "doctrine/orm" : [
+        {
+            "php": "7.4",
+            "working-version": ">=2.6.3",
+            "problems": ["\"continue\" targeting switch is equivalent to \"break\""],
+            "comments": [
+                "Example <href='https://3v4l.org/UQdYl'>https://3v4l.org/UQdYl</>",
+                "Fix <href='https://github.com/doctrine/orm/commit/07fc401d255a4cdb4a557147d1c8a3fc7a0c718d'>GitHub</>"
+            ]
+        }
+    ],
+    "doctrine/annotations" : [
+        {
+            "php": "7.4",
+            "working-version": ">=v1.7.0",
+            "problems": ["Trying to access array offset on value of type null"],
+            "comments": [
+                "Fix <href='https://github.com/doctrine/annotations/commit/27a356f681f93b94302c0d7989751bfe495acbed'>GitHub</>"
+            ]
+        }
+    ],
+    "doctrine/common" : [
+        {
+            "php": "7.4",
+            "working-version": ">=v2.11.0",
+            "problems": ["Function ReflectionType::__toString() is deprecated at ...vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php:1026)"],
+            "comments": [
+                "Fix: <href='https://github.com/doctrine/common/pull/873'>GitHub</>"
+            ]
+        }
+    ],
+    "phpoffice/phpspreadsheet" : [
+        {
+            "php": "7.4",
+            "working-version": ">=1.10.1",
+            "problems": ["Trying to access array offset on value of type int"],
+            "comments": []
+        }
+    ],
+    "egulias/email-validator" : [
+        {
+            "php": "7.4",
+            "working-version": ">=2.1.1",
+            "problems": ["Trying to access array offset on value of type null"],
+            "comments": []
+        }
+    ],
+    "fzaninotto/faker" : [
+        {
+            "php": "7.4",
+            "working-version": null,
+            "problems": ["ErrorException: join(): Passing glue string after array is deprecated. Swap the parameters"],
+            "comments": [
+                "Deprecated. Replace with <href='https://github.com/FakerPHP/Faker'>fakerphp/faker</>"
+            ]
+        }
+    ],
+    "mockery/mockery" : [
+        {
+            "php": "7.4",
+            "working-version": ">=1.2.3",
+            "problems": ["ErrorException: Function ReflectionType::__toString() is deprecated"],
+            "comments": []
+        }
+    ],
+    "phpunit/phpunit" : [
+        {
+            "php": "7.4",
+            "working-version": ">=7.5 <=8.0",
+            "problems": [],
+            "comments": [
+                "<href='https://github.com/sebastianbergmann/phpunit/pull/3765/files'>GitHub</>"
+            ]
+        }
+    ],
+    "dompdf/dompdf" : [
+        {
+            "php": "7.4",
+            "working-version": ">=v0.8.6",
+            "problems": [
+                "Invalid characters passed for attempted conversion, these have been ignored"
+            ],
+            "comments": [
+                "Fix <href='https://github.com/dompdf/dompdf/pull/2133'>GitHub</>"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use Ilzrv\PhpCompatibilityChecker\Command\PhpCompatibilityCheckerCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application('php-compatibility-checker', '1.0.0');
+$command = new PhpCompatibilityCheckerCommand();
+
+$application->add($command);
+
+$application->setDefaultCommand($command->getName(), true);
+
+$application->run();
