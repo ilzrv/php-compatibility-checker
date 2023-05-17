@@ -25,7 +25,6 @@ final class PhpCompatibilityCheckerCommand extends Command
             ->addArgument('composerLockPath', InputArgument::REQUIRED, 'Path to composer.lock file');
     }
 
-
     protected function execute(
         InputInterface $input,
         OutputInterface $output

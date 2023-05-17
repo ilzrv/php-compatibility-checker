@@ -107,5 +107,17 @@
                 "Fix <href='https://github.com/dompdf/dompdf/pull/2133'>GitHub</>"
             ]
         }
+    ],
+    "symfony/serializer" : [
+        {
+            "php": "8.0",
+            "working-version": ">=v3.4.41",
+            "problems": [
+                "Method ReflectionParameter::getClass() is deprecated"
+            ],
+            "comments": [
+                "Fix <href='https://github.com/symfony/serializer/commit/4d841b80812d841bcb3f258ffdbbfb9987909513'>GitHub</>"
+            ]
+        }
     ]
 }
