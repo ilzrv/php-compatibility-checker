@@ -3,6 +3,6 @@
         "src/Command/PhpCompatibilityCheckerCommand.php"
     ],
     "main": "bin/php-compatibility-checker",
-    "output": "cc.phar",
+    "output": "compatibility-checker.phar",
     "stub": true
 }
