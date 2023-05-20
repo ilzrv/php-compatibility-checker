@@ -42,3 +42,4 @@ jobs:
           upload_url: ${{ steps.get_current_release.outputs.upload_url }}
           asset_path: ./cc.phar
           asset_name: cc.phar
+          asset_content_type: application/octet-stream
