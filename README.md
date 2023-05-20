@@ -7,7 +7,7 @@ This list is compiled manually to help you update the PHP version in your projec
 ## Installation and usage
 This package requires PHP 8.1 or higher.
 
-### Download the latest release:
+### Download the latest release
 [Latest release](../../releases/latest/download/compatibility-checker.phar)
 
 ### Specify the desired PHP version and the full path to the `composer.lock` file
