@@ -5,7 +5,7 @@ When updating PHP versions in a project, vendors do not always indicate the corr
 This list is compiled manually to help you update the PHP version in your project.
 
 ## Installation and usage
-This package requires PHP 8.0 or higher.
+This package requires PHP 8.1 or higher.
 
 ### Download the latest release:
 [Latest release](../../releases/latest/download/compatibility-checker.phar)
@@ -18,5 +18,7 @@ php compatibility-checker.phar 8.0 ./composer.lock
 ## Example output
 
 ### Incompatibilities found
+![](./images/incompatibilities-found.jpg)
 
 ### No incompatibilities found
+![](./images/no-incompatibilities-found.jpg)
