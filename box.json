@@ -1,0 +1,8 @@
+{
+    "files": [
+        "src/Command/PhpCompatibilityCheckerCommand.php"
+    ],
+    "main": "bin/php-compatibility-checker",
+    "output": "cc.phar",
+    "stub": true
+}
