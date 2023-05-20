@@ -1,6 +1,7 @@
 {
     "files": [
-        "src/Command/PhpCompatibilityCheckerCommand.php"
+        "src/Command/PhpCompatibilityCheckerCommand.php",
+        "rules.json"
     ],
     "main": "bin/php-compatibility-checker",
     "output": "compatibility-checker.phar",
